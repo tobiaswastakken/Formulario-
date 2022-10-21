@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+background-color:rgb(224, 187, 228);
+font-family: 'Mulish', sans-serif;
+}
+
+h1{
+text-align: center;
+}
+
+#titulo{
+animation: hola infinite 50s;
+animation-iteration-count: infinite;
+position: relative;
+
+}
+
+.datos{
+background-color: rgb(254, 200, 216);
+display: flex;
+justify-content: center;
+}
+
+#caja{
+border-radius: 10px;
+color: rgb(123, 88, 158);
+}
+
+.box{
+margin: 10px;
+
+}
+
+#opcion{
+background-color: rgb(255, 223, 211);
+font-family: 'Mulish', sans-serif;
+cursor: grab;
+}
+
+
+
+#boton{
+background-color:rgb(255, 223, 211);
+border-color: rgb(149, 125, 173);
+border: 1px;
+border-radius: 5px;
+margin-top: 20px;
+margin-left: 30px;
+cursor: grab;
+font-family: 'Mulish', sans-serif;
+
+}
+
+#boton:hover{
+background-color: rgb(210, 145, 188);
+transform: scale(3);
+}
+
+
+
+
+@keyframes hola {
+        0%   {left: 0px;}
+        25%  {left: 200px;}
+        75%  {left: 50px}
+        100% {left: 100px;}
+        100% {right: 100px;}
+        75% {right: 75px;}
+        50% {right: 50px;}
+        25%{right: 25px;}
+        0% {right: 0px;}
+      }
